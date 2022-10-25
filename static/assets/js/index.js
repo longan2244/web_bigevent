@@ -1,7 +1,7 @@
 $(function () {
     getUserInfo()
     let layer = layui.layer
-    //获取用户基本信息
+    //获取用户基本信息 
     function getUserInfo() {
         $.ajax({
             url: '/my/userinfo',
@@ -52,5 +52,8 @@ $(function () {
         });
 
     })
+
+   
+    
 
 })
