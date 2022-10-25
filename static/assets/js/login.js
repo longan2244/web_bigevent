@@ -71,7 +71,7 @@ $(function () {
                 layer.msg(res.message);
                 //将token存入locsto中
                 localStorage.setItem('token', res.token)
-                return location.href = '/index.html'
+                return location.href = '/static/index.html'
             }
         })
     })
